@@ -4,6 +4,8 @@ module.exports = class Persona{
         this.estatura = estatura;
         this.peso = peso;
         this.imc = 0
+        this.resultado = '';
     }
 
+    
 }
