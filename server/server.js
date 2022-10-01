@@ -10,6 +10,7 @@ server.on('connection',(socket)=>{
     socket.on('data',(data)=>{
         let personaCliente = parser.parse(data);
         console.log('\n Persona del cliente');
+        console.log(data);
         console.log('Nombre: ' + personaCliente.nombre);
         console.log('Estatura: ' + personaCliente.estatura);
         console.log('Peso: ' + personaCliente.peso);
